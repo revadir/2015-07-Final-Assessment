@@ -46,8 +46,11 @@ app.get('/search', function(req, res) {
       console.log(error);
       res.send(error);
     } else {
-      console.log('sending back', response.body);
       res.status(200).send(response.body);
     }
   });
+});
+
+app.post('/signin', function(req, res) {
+  // do Github oauth here
 });
