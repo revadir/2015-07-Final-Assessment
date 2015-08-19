@@ -1,0 +1,25 @@
+{
+  "name": "final_assessement",
+  "version": "1.0.0",
+  "description": "Final assessment for boot camp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/revadir/2015-07-Final-Assessment.git"
+  },
+  "author": "Reva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/revadir/2015-07-Final-Assessment/issues"
+  },
+  "homepage": "https://github.com/revadir/2015-07-Final-Assessment#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "oath": "^1.0.0",
+    "request": "^2.60.0"
+  }
+}

@@ -1,0 +1,62 @@
+#search{
+   position: relative;
+   background: #E6E6E6;
+   padding: 0 20px 0 20px;
+}
+
+#search .searchBar{
+   position: relative;
+   line-height: 40px;
+   font-size: 24px;
+}
+
+#search .searchBar input[name="searchText"]{
+   font-size: 24px;
+   border: none;
+   padding: 0 20px 0 10px;
+   background: transparent;
+   width: 70%;
+}
+#search .searchBar input[name="searchText"]::selection{
+   background: #000000;
+   color: #E6E6E6;
+}
+
+#search .searchBar .closeBtn{
+   position: absolute;
+   right: 0;
+   top: 12px;
+   width: 18px;
+   height: 18px;
+   background-size: contain;
+   cursor: pointer;
+   display: none;
+}
+.searching #search .searchBar .closeBtn{ display: block }
+
+#search .searchResults{
+   position: relative;
+   overflow: hidden;
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-transition: height 0.25s ease-out;
+   transition: height 0.25s ease-out;
+}
+#search .searchResults:before{
+   position: absolute;
+   left: 0;
+   right: 0;
+   top: 0;
+   content: "";
+   height: 1px;
+   background: #C3C3C3;
+}
+
+#search .searchResults .itemsContainer{
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   padding: 20px 0 20px 0;
+}
+

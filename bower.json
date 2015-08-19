@@ -1,0 +1,22 @@
+{
+  "name": "final_assessment",
+  "version": "1.0.0",
+  "homepage": "https://github.com/revadir/2015-07-Final-Assessment",
+  "authors": [
+    "Sharanabasappa Revadigar <revadigar@gmail.com>"
+  ],
+  "description": "Final assessment for boot camp",
+  "main": "app.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "react": "~0.13.3"
+  }
+}
