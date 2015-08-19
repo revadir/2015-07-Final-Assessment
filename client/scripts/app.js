@@ -4,6 +4,7 @@
 var module = angular.module('giphy-app', [
     'giphy-app.auth',
     'giphy-app.search',
+    'giphy-app.factory',
     'ngRoute'
 ])
 
